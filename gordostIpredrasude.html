@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	</head>
+	
+	<body >
+			
+	<header>
+   <h1 align="center"><b>FEST BJ</b> </h1>
+
+
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<!-- logo -->
+			<a class="navbar-brand" href="index.html">
+				<img src="logo.png" alt="Logo" style="width:40px;">
+			</a>
+			
+			 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<!-- likovi -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Pocetna</a>
+					</li>
+					<li class="nav-item dropdown">
+						 <a class="nav-link dropdown-toggle" href="festival.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        O festivalu
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="festival.html">O festivalu</a>
+                        <a class="dropdown-item" href="ziri.html">Ziri</a>
+                        <a class="dropdown-item" href="nagrade.html">Nagrade</a>
+                        <a class="dropdown-item" href="kontakti.html">Kontakti</a>
+						 <a class="dropdown-item" href="sponzori.html">Sponzori</a>
+                    </div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="program.html">Program</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="actors.html">Glumci</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">Vesti</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="favor.html">Moji filmovi</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Galerija</a>
+					</li> 
+					
+				</ul>
+			</div> 
+		</nav>	
+        
+    </header>
+	
+		<br><br>
+		<form name="dugme1">
+			<button onclick="otvoria()" name="ENG" >ENG</button>
+		</form>	
+		<script language="JavaScript">
+			function otvoria(){
+				window.open("gordostIpredrasudeeng.html");
+			}
+		</script>
+		
+		<div class="container" id="home" align="center">
+			<h2>GORDOST I PREDRASUDE</h2>
+			<hr>
+			<b>Reziser</b>:Roman Osin
+				<br>
+			<b>Glumci</b>:  Kjara Najtli, Metju Makfadjen
+			<br>
+			<form name="fav">
+				<button onclick="otv2()" name="favor" class="btn-success" >Dodaj u omiljene</button>
+			</form>	
+			<script language="JavaScript">
+			function otv2(){
+				if ('localStorage' in window && window.localStorage !== null) {
+					localStorage.setItem("Gordost i Predrasude", "2");
+				}
+				else {
+					alert("Sorry");
+				}
+			}
+			</script>
+			<b>
+			Trejler:
+			</b>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/1dYv5u6v55Y?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br><br><br><br>
+			<div class="media">
+			
+								<div class="media-left">
+									<img class="mr-3" src="glavna.jpg">
+								</div>
+								<div class="media-body" style="text-align:justify;">
+									<h4 class="mt-0">
+										Gordost i predrasude	<br> 
+									</h4>
+									Reziser:Roman Osin
+									<br>
+									Glavne uloge:  Kira Najtli, Metju Makfadjen
+									<br>
+									Trajanje: 110min
+									<br>
+									Zanr: Romanticni film
+									<br>
+									Zemlja: Velika Britanija
+									<br>
+									Muzika: Dario Marianeli
+									<br>
+									<br><br><br><br>
+									<h5>PRIKAZUJE SE:</h5>
+											Vreme: 23:00
+											<br>
+											Cena: 300 RSD
+											<br>
+											<a href="fontana.html">Fontana</a>
+											<form name="dugme2">
+												<button onclick="otv()" name="dugme2" id="duggordost" >Rezervisi</button>
+											</form>		
+											<script language="JavaScript">
+												function otv(){
+													window.open("rezervacija.html");
+												}
+											</script>
+											
+								</div>
+			</div>
+			<br><br><br><br>
+			<h3>Radnja:</h3>
+			,,Opste je prihvacena istina da bogat muskarac zeli zenu! ’’, prva je  recenica legendarnog romana Dzejn Ostin ,koji je kod citalacke publike jednako popularan danas, kao i kada je objavljen 1813.god.  Od filmskih  adaptacija  ovog dela , ova  u reziji Dzoa Rajta iz 2005. godine  , predstavlja gledano kriticki ali  i finansijski, najuspesniju do sada.
+Gospodin i gospodja Benet zive tokom 18. veka u ruralnoj u Engleskoj,  na farmi, sa svojih pet cerki.  Kada se u susedstvo doseli dobrostojeci gospodin Bingli, nastaje  opsta pometnja u drustvenom  okruzenju. U vreme kada je zenama jedino dostupno  zanimanje bilo supruga ili usedelica, gospodja Benet ce uciniti sve da bi spojila Binglija sa svojom najstarijom cerkom Dzejn.  Tokom bala, priredjenog u cast novopridoslom nezenji, druga najstarija cerka  Elizabet  i hladni i rezervisani gospodin Darsi, zapadaju jedno drugom za oko. Njihov odnos zapocinje lose. Razlike u drustvenom, obrazovnom i finansijskom statusu, stvaraju niz nesporazuma i prepreka  koje ce otezati zblizavanje dvoje osobenih mladih ljudi, zarobljenih medju strogim drustvenim pravilima Engleske tog vremena. On ce morati da prevazice svoj ponos  a ona sopstvene i opste predrasude, ako zele da budu  zajedno.
+
+
+<br><br><br><br>
+			
+			
+			<table>
+			<tr>
+			<td><img src="pap.jpeg" width="200"height="150"></td>
+			<td><img src="pap1.jpg" width="200"height="150"></td>
+			<td><img src="pap2.jpg" width="200"height="150"></td>
+			<td><img src="pap3.jpg" width="200" height="150"></td>
+			</tr>
+			</table>
+		
+			<hr>
+			<footer>
+				<p><i>Copyright 2018, Jelena Ilic, Bojana Krivokapic,
+				Odsek za softversko inzenjerstvo Elektrotehnickog fakulteta Univerziteta u Beogradu</i></p>
+			</footer>
+		</div> 
+		
+
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

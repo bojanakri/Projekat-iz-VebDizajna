@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	</head>
+	
+	<body >
+			
+	<header>
+   <h1 align="center"><b>FEST BJ</b> </h1>
+
+
+
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<!-- logo -->
+			<a class="navbar-brand" href="indexeng.html">
+				<img src="logo.png" alt="Logo" style="width:40px;">
+			</a>
+			
+			 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<!-- likovi -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="indexeng.html">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						 <a class="nav-link dropdown-toggle" href="festival.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About fest
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="festivaleng.html">About fest</a>
+                        <a class="dropdown-item" href="zirieng.html">Jury</a>
+                        <a class="dropdown-item" href="nagradeeng.html">Awards</a>
+                        <a class="dropdown-item" href="kontaktieng.html">Contacts</a>
+						 <a class="dropdown-item" href="sponzorieng.html">Sponsors</a>
+                    </div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="programeng.html">Program</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="actorseng.html">Actors</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="newseng.html">News</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="favoreng.html">My films</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="galleryeng.html">Gallery</a>
+					</li> 
+					
+				</ul>
+			</div> 
+		</nav>	
+        
+    </header>
+		
+		
+		<br><br>
+		<form name="dugme1">
+			<button onclick="otvoria()" name="SRB" >SRB</button>
+		</form>	
+		<script language="JavaScript">
+			function otvoria(){
+				window.open("jedandan.html");
+			}
+		</script>
+		<div class="container" id="home" align="center">
+			<h2>ONE DAY</h2>
+			<hr>
+			<b>Director</b>:Loan Scherfig
+				<br>
+			<b>Actors</b>:Anne Hathaway, Jim Starjess
+			<br>
+			<form name="fav">
+				<button onclick="otv2()" name="favor" class="btn-success" >Add to favorites</button>
+			</form>	
+			<script language="JavaScript">
+			function otv2(){
+				if ('localStorage' in window && window.localStorage !== null) {
+					localStorage.setItem("Jedan dan", "4");
+				}
+				else {
+					alert("Sorry");
+				}
+			}
+			</script>
+			<b>
+			Trailer:
+			</b>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/zVuuooZqVaU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br><br><br><br>
+			<div class="media">
+			
+								<div class="media-left">
+									<img class="mr-3" src="oneday.jpg" >
+								</div>
+								<div class="media-body" style="text-align:justify;">
+									<h4 class="mt-0">
+										One day<br> 
+									</h4>
+									Director:Lana Vahovski
+									<br>
+									Main actors:Anne Hathaway, Jim Starjess
+									<br>
+									Duration: 150min
+									<br>
+									Genre: Comedy	
+									<br>
+									Country: USA
+									<br>
+									Music: MattisYahu
+									<br>
+									<br><br><br><br>
+									<h5>SHOWING:</h5>
+											Time: 23:00
+											<br>
+											Price: 300 RSD
+											<br>
+											<a href="savacentar.html">Sava Centar</a>
+											<br>
+											<form name="dugme2">
+												<button onclick="otv()" name="dugme2" id="dugjedan" >Reserve</button>
+											</form>		
+											<script language="JavaScript">
+												function otv(){
+													window.open("rezervacijaeng.html");
+												}
+											</script>
+								</div>
+			</div>
+			<br><br><br><br>
+			<h3>Plot:</h3>
+			On the day of her graduation at Edinburgh University in 1988, Emma Morley (A. Hathaway) met her peeress Dexter Mayhewa (J. Sturgess).
+Although they spend the night together, Emma and Dexter decide to stay only friends, not knowing that in the next two decades their lives will start in a different
+directions, and that during this period they will be on the date they meet and sometimes meet. The following year, Emma worked as a waitress in a Mexican restaurant in the
+London, and Dexter travels to the world during conducting drunkenness and superficial relationships with girls. As he becomes a successful leader of the late-night TV show, Emma begins
+ the career of a schoolteacher, and is in line with the sympathetic Ian (R. Spall), a commissioner whom she does not consider humorous. Over the next few years, Dexter will face
+ with the severe illness of her mother, Alison (P. Clarkson), and the fact that neither her nor his father, Steven, does not like the development of their career sons. And when
+ realizing that the connection with Ian is growing more and more, Emma will meet again with Dexter. But their encounter will not be at all pleasant.
+<br><br><br><br>
+			
+			
+			<table>
+			<tr>
+			<td><img src="oneday1.jpg" width="200"height="130"></td>
+			<td><img src="oneday2.jpg" width="200"height="130"></td>
+			<td><img src="oneday3.jpg" width="200"height="130"></td>
+			<td><img src="oneday4.jpg" width="200" height="130"></td>
+			</tr>
+			</table>
+		
+			<hr>
+			<footer>
+				<p><i>Copyright 2018, Jelena Ilic, Bojana Krivokapic,
+				Odsek za softversko inzenjerstvo Elektrotehnickog fakulteta Univerziteta u Beogradu</i></p>
+			</footer>
+		</div> 
+		
+
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
