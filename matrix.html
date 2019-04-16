@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		
+		
+	</head>
+	
+	<body >
+			
+	<header>
+   <h1 align="center"><b>FEST BJ</b></h1>
+
+
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<!-- logo -->
+			<a class="navbar-brand" href="index.html">
+				<img src="logo.png" alt="Logo" style="width:40px;">
+			</a>
+			
+			 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<!-- likovi -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Pocetna</a>
+					</li>
+					<li class="nav-item dropdown">
+						 <a class="nav-link dropdown-toggle" href="festival.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        O festivalu
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="festival.html">O festivalu</a>
+                        <a class="dropdown-item" href="ziri.html">Ziri</a>
+                        <a class="dropdown-item" href="nagrade.html">Nagrade</a>
+                        <a class="dropdown-item" href="kontakti.html">Kontakti</a>
+						 <a class="dropdown-item" href="sponzori.html">Sponzori</a>
+                    </div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="program.html">Program</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="actors.html">Glumci</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">Vesti</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="favor.html">Moji filmovi</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Galerija</a>
+					</li> 
+					
+				</ul>
+			</div> 
+		</nav>	
+        
+    </header>
+	
+		<br><br>
+		<form name="dugme1">
+			<button onclick="otvoria()" name="SRB" >ENG</button>
+		</form>	
+		<script language="JavaScript">
+			function otvoria(){
+				window.open("matrixeng.html");
+			}
+		</script>
+		<div class="container" id="home" align="center">
+			<h2>MATRIX</h2>
+			<hr>
+			<b>Reziser</b>:Lana Vahovski 
+				<br>
+			<b>Glumci</b>: Kijanu Rivs, Kari-En Mos 
+			<br>
+			<form name="fav">
+				<button onclick="otv2()" name="favor" class="btn-success" >Dodaj u omiljene</button>
+			</form>	
+			<script language="JavaScript">
+			function otv2(){
+				if ('localStorage' in window && window.localStorage !== null) {
+					localStorage.setItem("Matriks", "1");
+				}
+				else {
+					alert("Sorry");
+				}
+			}
+			</script>
+			<b>
+			Trejler:
+			</b>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/m8e-FF8MsqU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br><br><br><br>
+			<div class="media">
+			
+								<div class="media-left">
+									<img class="mr-3" src="matrix.png" id="matrix">
+								</div>
+								<div class="media-body" style="text-align:justify;">
+									<h4 class="mt-0">
+										Matrix	<br> 
+									</h4>
+									Reziser: Lana Vahovski 
+									<br>
+									Glavne uloge: Kijanu Rivs, Kari-En Mos 
+									<br>
+									Trajanje: 150min
+									<br>
+									Zanr: Naucna Fantastika	
+									<br>
+									Zemlja: SAD
+									<br>
+									Muzika: Tehno
+									<br>
+									<br><br><br><br>
+									<h5>PRIKAZUJE SE:</h5>
+											Vreme: 17:45
+											<br>
+											Cena: 350 RSD
+											<br>
+											<a href="fontana.html">Fontana</a>
+											<br>
+											<form name="dugme2">
+												<button onclick="otv()" name="dugme2" id="dugmatrix" >Rezervisi</button>
+											</form>		
+											<script language="JavaScript">
+												function otv(){
+													window.open("rezervacija.html");
+												}
+											</script>
+								</div>
+			</div>
+			<br><br><br><br>
+			<h3>Radnja:</h3>
+			Tomas A. Anderson vodi dvostruki zivot. U jednom je programer ugledne kompanije za proizvodnju softvera — Metacortex. U drugom je Neo, haker koji noci provodi za racunarom pokusavajuci da stupi u kontakt sa Morfijusom, najpoznatijim svetskim hakerom koji je u bekstvu. Uz to pati od nesanice i pokusava da dokuci nesto ali ni sam ne zna sta, jer konstantno ima osecaj da sa svetom nesto nije u redu. Jednog dana na monitoru njegovog racunara pojavljuje se tekst: Sta je to Matriks? Prateci instrukcije koje zatim dobija odlazi do nocnog kluba gde srece Triniti, poznatu hakerku koja mu kaze da moze da ga poveze sa Morfijusom, ali je Neo skeptican. Sutradan na poslu biva uhapsen. Agenti koji su ga uhapsili traze od njega da saradjuje kako bi pomocu njega dosli do Morfijusa, ali ih Neo prezrivo odbija. Tada dolazi do natprirodnog dogadjaja gde se Neu usne tope i sjedinjuju, a agenti mu u stomak ubacuju mehanicku napravu u obliku minijaturnog pauka. Nakon toga, Neo se budi misleci da je sve to bio samo san.
+Ipak, Triniti ponovo stupa u kontakt s njim. Nakon sto pomocu odredjene naprave iz Neovog stomaka izvuce minijaturnog robota koji je u stvari naprava za pracenje, Neo shvata da se dogadja nesto neobjasnjivo i prihvata da se vidi sa Morfijusom. Morfijus mu objasnjava da je Matriks svuda oko njih i vlada celim svetom, ali da on ne moze da mu objasni sta je to zapravo vec da to mora sam da otkrije. Zatim mu nudi dve pilule: plavu — nakon koje pada u san nakon cega moze da nastavi da veruje u sta god hoce ili crvenu — koja ce mu otvoriti vrata u novi svet i nakon koje ce dobiti odgovore na sva pitanja za kojima traga celog zivota. Neo uzima crvenu pilulu. Posle par minuta pocinje da se grci i umalo dobija srcani udar, nakon cega privremeno gubi svest.
+
+
+<br><br><br><br>
+			
+			
+			<table>
+			<tr>
+			<td><img src="matrixsl.jpg" width="200"height="150"></td>
+			<td><img src="baja.jpg" width="200"height="150"></td>
+			<td><img src="lepa.jpg" width="200"height="150"></td>
+			<td><img src="opasan.jpg" width="200" height="150"></td>
+			</tr>
+			</table>
+		
+			<hr>
+			<footer>
+				<p><i>Copyright 2018, Jelena Ilic, Bojana Krivokapic,
+				Odsek za softversko inzenjerstvo Elektrotehnickog fakulteta Univerziteta u Beogradu</i></p>
+			</footer>
+		</div> 
+		
+
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
