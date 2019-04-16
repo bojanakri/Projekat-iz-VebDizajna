@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	</head>
+	
+	<body >
+			
+	<header>
+   <h1 align="center"><b>FEST BJ</b></h1>
+
+
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<!-- logo -->
+			<a class="navbar-brand" href="index.html">
+				<img src="logo.png" alt="Logo" style="width:40px;">
+			</a>
+			
+			 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<!-- likovi -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Pocetna</a>
+					</li>
+					<li class="nav-item dropdown">
+						 <a class="nav-link dropdown-toggle" href="festival.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        O festivalu
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="festival.html">O festivalu</a>
+                        <a class="dropdown-item" href="ziri.html">Ziri</a>
+                        <a class="dropdown-item" href="nagrade.html">Nagrade</a>
+                        <a class="dropdown-item" href="kontakti.html">Kontakti</a>
+						 <a class="dropdown-item" href="sponzori.html">Sponzori</a>
+                    </div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="program.html">Program</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="actors.html">Glumci</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">Vesti</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="favor.html">Moji filmovi</a>
+					</li> 
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Galerija</a>
+					</li> 
+					
+				</ul>
+			</div> 
+		</nav>	
+        
+    </header>
+	
+		<br><br>
+		<form name="dugme1">
+			<button onclick="otvoria()" name="ENG" >ENG</button>
+		</form>	
+		<script language="JavaScript">
+			function otvoria(){
+				window.open("titanikeng.html");
+			}
+		</script>
+		
+		<div class="container" id="home" align="center">
+			<h2>TITANIK</h2>
+			<hr>
+			<b>Reziser</b>:Dzejms Kameron
+				<br>
+			<b>Glumci</b>: Kejt Vinslet, Leonardo Di Kaprio
+			<br>
+			<form name="fav">
+				<button onclick="otv2()" name="favor" class="btn-success" >Dodaj u omiljene</button>
+			</form>	
+			<script language="JavaScript">
+			function otv2(){
+				if ('localStorage' in window && window.localStorage !== null) {
+					localStorage.setItem("Titanik", "7");
+				}
+				else {
+					alert("Sorry");
+				}
+			}
+			</script>
+			<b>
+			Trejler:
+			</b>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/2e-eXJ6HgkQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<br><br><br><br>
+			<div class="media">
+			
+								<div class="media-left">
+									<img class="mr-3" src="titanik.jpg">
+								</div>
+								<div class="media-body" style="text-align:justify;">
+									<h4 class="mt-0">
+										Titanik	<br> 
+									</h4>
+									Reziser: Dzejms Kameron
+									<br>
+									Glavne uloge: Leonardo di Caprio, Kate Winslet
+									<br>
+									Trajanje: 150min
+									<br>
+									Zanr: Drama	
+									<br>
+									Zemlja: SAD
+									<br>
+									Muzika: Dzejms Hornern	
+									<br>
+									<br><br><br><br>
+									<h5>PRIKAZUJE SE:</h5>
+											Vreme: 16:00
+											<br>
+											Cena: 300 RSD
+											<br>
+											<a href="savacentar.html">Sava Centar</a>
+											<br>
+											<form name="dugme2">
+												<button onclick="otv()" name="dugme2" id="dugtitanik" >Rezervisi</button>
+											</form>		
+											<script language="JavaScript">
+												function otv(){
+													window.open("rezervacija.html");
+												}
+											</script>
+								</div>
+			</div>
+			<br><br><br><br>
+			<h3>Radnja:</h3>
+			Radnja filma zapocinje 1996. godine kada lovac na blago, Brok Lovet, zajedno sa svojim timom zaranja duboko u Atlantski okean prema olupini Titanika u potrazi za vrednom dijamantskom ogrlicom. Nakon sto u sefu pronadju crtez mlade devojke koja nosi ogrlicu i isti objave putem medija, ubrzo im se javlja stara gospodja koja tvrdi da je upravo ona devojka sa crteza. Pomocu naracije, stara Rouz vraca gledaoce u 1912. godinu, u luku Sauthempton odakle Titanik krece na svoje prvo putovanje. Osim Rouz, nesrecne devojke zatocene u okove drustvenog sloja u kome zivi, upoznajemo njenu majku Rut i verenika Kaledona Hoklija, sina bogatog pitsburskog tajkuna koji ce vencanjem sa Rouz otplatiti sve dugove u koje se uvukao njen mrtvi otac. U isto vreme, mladi nadobudni Dzek Doson osvaja kartu za Titanik na pokeru i u poslednji cas se sa svojim prijateljem Fabrizijem ukrcava na brod.
+
+Dzek i Rouz susrecu se u trenutku kad Rouz pokusava da se ubije, zeleci da se baci sa krme broda. Tokom putovanja koje ce trajati 4 dana, njih dvoje razvijaju prijateljstvo koje ce prerasti u pravu ljubavnu romansu nakon sto nacrta Rouz sa ogrlicom koju joj je poklonio verenik Kaledon na pocetku putovanja. Dana 14. aprila 1912. godine, nekoliko sati nakon sto su Dzek i Rouz doziveli svoje najromanticnije trenutke Titanik se susrece sa svojom vlastitom sudbinom: velikom santom leda usred Atlantskog okeana. Buduci da brod plovi punom parom, ne uspeva da zaobidje santu pa je snazno udara duzinom od skoro 20 metara s bocne strane.
+
+Nakon sto svima postane jasno da ce nepotopivi brod ipak potonuti na dno okeana, nastaje masovna panika, a u celom ludilu Dzek ce biti uhvacen, Kaledon ce pokusati oboje da ubije, a nakon toga da spasi sebe pretvarajuci se da je otac jedne siromasne devojcice, bend ce nastaviti da svira. Brod zatim tone a Dzek i Rouz se spasavaju tako sto se uhvate za neki drveni predmet. Dzek se u medjuvremenu smrzava, a Rouz mu obecava da nikad nece odustati. Kada se camac za spasavanje prezivelih priblizavao Rouz je zadnjim naporom vikala, medjutim nije je niko cuo. Kada je camac poceo da odlazi Rouz skoci sa drvenog objekta na kome je sedela i otpliva do jednog smrznutog oficira, uzme mu pistaljku i dune u nju, te se camac vrati i pokupi je. I tako je prezivela. Kada ju je Brok Lovet pitao za dijamantsku ogrlicu ona je rekla da je verovatno ostala kod Kaledona. Ali ogrlica je ostala u dzepu ogrtaca koji joj je dao Kaledon. Rouz se penje na brod koji nosi podmornice i baca ogrlicu u Atlantski okean.
+<br><br><br><br>
+			
+			
+			<table>
+			<tr>
+			<td><img src="rose.jpg" width="150" height="120"></td>
+			<td><img src="ljubav.jpg" width="200"></td>
+			<td><img src="leo1.jpg" width="150" height="150"></td>
+			<td><img src="propo.png" width="200"></td>
+			</tr>
+			</table>
+		
+			<hr>
+			<footer>
+				<p><i>Copyright 2018, Jelena Ilic, Bojana Krivokapic,
+				Odsek za softversko inzenjerstvo Elektrotehnickog fakulteta Univerziteta u Beogradu</i></p>
+			</footer>
+		</div> 
+		
+
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
